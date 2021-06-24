@@ -1,0 +1,42 @@
+.search_container {
+  width: 100%;
+}
+
+.search_input {
+  width: 80%;
+  height: 40px;
+  border: 1px solid #dcdcdc;
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.search_button {
+  width: 10%;
+  height: 40px;
+  background-color: #0a66c2;
+  border: 1px solid #0a66c2;
+  color: #ffffff; 
+}
+
+.list_item_container{
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.list_item {
+  margin: 10px;
+  height: 40vh;
+  flex-grow: 1;
+}
+
+img {
+ max-height: 100%;
+ min-width: 100%;
+ object-fit: cover;
+ vertical-align: bottom;
+} 
+
+
